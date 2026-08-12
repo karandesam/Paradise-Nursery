@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addItem } from '../redux/CartSlice';
 import { plantsData } from './plantsData';
@@ -8,7 +7,6 @@ import '../styles/ProductList.css';
 export default function ProductList() {
   const dispatch = useDispatch();
   const cartItems = useSelector(state => state.cart.items);
-  const [addedItems, setAddedItems] = useState(new Set());
 
   // Group plants by category
   const groupedPlants = plantsData.reduce((acc, plant) => {
@@ -25,7 +23,6 @@ export default function ProductList() {
     
     if (!isInCart) {
       dispatch(addItem(product));
-      setAddedItems(new Set([...addedItems, product.id]));
     }
   };
 

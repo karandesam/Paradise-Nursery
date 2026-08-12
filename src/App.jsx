@@ -15,9 +15,10 @@ function LandingPage() {
     <div className="landing-page">
       <div className="landing-overlay"></div>
       <div className="landing-content">
-        <h1 className="landing-title">🌿 Paradise Nursery</h1>
-        <p className="landing-subtitle">Bring Nature Into Your Home</p>
+        <h1 className="landing-title">Paradise Nursery</h1>
+        <p className="landing-subtitle">Welcome to Paradise Nursery - Your Online Plant Shop</p>
         <p className="landing-description">
+          Paradise Nursery is an online plant shop where you can buy beautiful houseplants and indoor plants. 
           Discover beautiful indoor plants for your home and office. 
           From low-maintenance succulents to lush tropical plants, 
           we have the perfect greenery for you.

@@ -7,44 +7,48 @@ export default function AboutUs() {
       <Navbar />
       <div className="about-container">
         <div className="about-content">
-          <h1>🌿 About Paradise Nursery</h1>
+          <h1>About Paradise Nursery</h1>
           
           <section className="about-section">
-            <h2>Welcome to Paradise Nursery</h2>
+            <h2>Company Overview</h2>
             <p>
+              Paradise Nursery is an online plant shop and company dedicated to bringing houseplants to customers. 
+              We are a plant e-commerce business that specializes in selling quality houseplants and indoor plants. 
               At Paradise Nursery, we believe that every home deserves a touch of nature. 
-              Since 2020, we have been committed to bringing beautiful, healthy plants directly 
-              to your doorstep.
+              Since 2020, we have been committed to bringing beautiful, healthy plants directly to your doorstep.
             </p>
           </section>
 
           <section className="about-section">
             <h2>Our Mission</h2>
             <p>
-              Our mission is to make plant ownership accessible and enjoyable for everyone. 
+              The mission of Paradise Nursery is to make plant ownership accessible and enjoyable for everyone. 
+              We are committed to providing quality houseplants and excellent customer service. 
               Whether you're a seasoned plant parent or just starting your green journey, 
               we have the perfect plant for you.
             </p>
           </section>
 
           <section className="about-section">
-            <h2>Premium Quality Plants</h2>
+            <h2>Quality of Plants</h2>
             <p>
+              The quality of plants at Paradise Nursery is our top priority. 
               Every plant in our collection is carefully selected and nurtured in our state-of-the-art 
               facilities. We ensure that each plant is healthy, vibrant, and ready to thrive in your home. 
-              Our expert team monitors plant health at every stage to guarantee quality and longevity.
+              Our expert team monitors plant health at every stage to guarantee the quality and longevity of our plants.
             </p>
           </section>
 
           <section className="about-section">
-            <h2>Customer-Focused Service</h2>
+            <h2>Customer Service</h2>
             <p>
-              Your satisfaction is our priority. We provide:
+              Customer service is central to Paradise Nursery. Your satisfaction is our priority. 
+              We provide the following customer service benefits:
             </p>
             <ul className="service-list">
               <li>Expert plant care guides for every species</li>
               <li>Free delivery on orders above ₹500</li>
-              <li> 7-day plant health guarantee</li>
+              <li>7-day plant health guarantee</li>
               <li>Responsive customer support via email and phone</li>
               <li>Educational resources and plant care tips</li>
             </ul>

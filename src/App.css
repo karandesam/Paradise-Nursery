@@ -18,12 +18,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                    url('https://images.unsplash.com/photo-1518531933037-91b2f5f9cc6c?w=1200&h=800&fit=crop');
+  background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f9cc6c?w=1200&h=800&fit=crop');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: #1a1a1a;
   text-align: center;
   color: white;
   overflow: hidden;
