@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart } from '../redux/CartSlice';
+import { addItem } from '../redux/CartSlice';
 import { plantsData } from './plantsData';
 import Navbar from './Navbar';
 import '../styles/ProductList.css';
@@ -24,7 +24,7 @@ export default function ProductList() {
     const isInCart = cartItems.some(item => item.id === product.id);
     
     if (!isInCart) {
-      dispatch(addToCart(product));
+      dispatch(addItem(product));
       setAddedItems(new Set([...addedItems, product.id]));
     }
   };

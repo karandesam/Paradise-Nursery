@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { removeFromCart, increaseQuantity, decreaseQuantity } from '../redux/CartSlice';
+import { removeItem, updateQuantity } from '../redux/CartSlice';
 import '../styles/CartItem.css';
 
 export default function CartItem({ item }) {
@@ -7,15 +7,15 @@ export default function CartItem({ item }) {
   const itemTotal = item.price * item.quantity;
 
   const handleIncrease = () => {
-    dispatch(increaseQuantity(item.id));
+    dispatch(updateQuantity({ id: item.id, quantity: item.quantity + 1 }));
   };
 
   const handleDecrease = () => {
-    dispatch(decreaseQuantity(item.id));
+    dispatch(updateQuantity({ id: item.id, quantity: item.quantity - 1 }));
   };
 
   const handleRemove = () => {
-    dispatch(removeFromCart(item.id));
+    dispatch(removeItem(item.id));
   };
 
   return (
